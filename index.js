@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 const router = express.Router(); // Create a new router instance
 const port = 4000;
-const apiKey = '452d05bf6c4d4555874a25c54fd797fa'; // previously got rate limited on my email for more than 100 uses per 24hrs
+const apiKey = '998f928658da4165a625558e23617e6d'; // previously got rate limited on my email for more than 100 uses per 24hrs
 
 // Middleware
 app.use(cors());
